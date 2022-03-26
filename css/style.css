@@ -737,8 +737,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #challenge button{
   background-color: rgb(133, 219, 75);
   border-radius: 40px;
-  width: 100px;  position: relative;
-  top: 100px;
+  width: 100px;
   height: 40px;
 }
 #challenge button:hover{
