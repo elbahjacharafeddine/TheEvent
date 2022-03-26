@@ -203,9 +203,13 @@ h1{
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 30px;
   max-height: 40px;
 }
+#logo{
+  width: 140px;
 
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -275,6 +279,8 @@ h1{
   float: right;
   margin: 0;
 }
+
+
 
 /* Nav Meu Styling */
 
@@ -486,7 +492,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../images-final/ENSA-JADIDA-compus.jpg) top center;
+  background: url(../images-final/page-01-1_Haxagones-ALL-six.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -712,6 +718,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Challenge Section
+--------------------------------------------------------------*/
+
+#challenge {
+  background-color: #f5f8ff;;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+#challenge p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777777;
+  margin: 0px;
+}
+#challenge button{
+  background-color: rgb(133, 219, 75);
+  border-radius: 40px;
+  width: 100px;  position: relative;
+  top: 100px;
+  height: 40px;
+}
+#challenge button:hover{
+  background-color: white;
+
+}
+
+
+/*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 
@@ -807,6 +844,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
 
 /*--------------------------------------------------------------
 # Schedule Section
@@ -911,9 +949,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #venue {
+  height: 900px;
   padding: 60px 0;
+  background: url(../images-final/page-07_Background-Présidence_UCD-1620px.jpg);
 }
-
 #venue .container-fluid {
   margin-bottom: 3px;
 }
@@ -961,9 +1000,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
-  width:350px;
+  width:400px;
   height: 250px;
+  position: relative;
+  top: 400px;
 }
+
 
 #venue .venue-gallery img {
   transition: all ease-in-out 0.4s;
